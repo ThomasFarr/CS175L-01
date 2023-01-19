@@ -10,4 +10,3 @@ print ("Garryford Drive, Middletown, 07748")
 
 print ("732-788-7763")
 
-print ("Computer Science")
