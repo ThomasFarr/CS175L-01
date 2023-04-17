@@ -16,9 +16,9 @@ def main():
             amount = line.split('\t')[1].rstrip('\n')
             if amount.isdigit():
                 amounts.append(amount)
+                i+=1
             else:
                 del subjects[i]
-            i+=1
         plt.pie(amounts, labels=subjects)
         plt.title('Monthly Expenses')
         plt.show()
